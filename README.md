@@ -31,6 +31,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 cargo generate 是一个用于生成项目模板的工具。它可以使用已有的 github repo 作为模版生成新的项目。
 
 ```bash
+# apt install pkg-config openssl libssl-dev
 cargo install cargo-generate
 ```
 
