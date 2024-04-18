@@ -1,4 +1,4 @@
-# Geektime Rust 语言训练营
+# Rust 语言基础环境配置
 
 ## 环境设置
 
@@ -34,10 +34,10 @@ cargo generate 是一个用于生成项目模板的工具。它可以使用已�
 cargo install cargo-generate
 ```
 
-在我们的课程中，新的项目会使用 `tyr-rust-bootcamp/template` 模版生成基本的代码：
+新的项目会使用 `changaolin/rust_template` 模版生成基本的代码：
 
 ```bash
-cargo generate tyr-rust-bootcamp/template
+cargo generate changaolin/rust_template
 ```
 
 ### 安装 pre-commit
