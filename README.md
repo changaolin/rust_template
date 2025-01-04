@@ -8,6 +8,17 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+### 安装配套组件
+
+```shell
+cargo install cargo-generate
+pipx install pre-commit
+cargo install --locked cargo-deny
+cargo install typos-cli
+cargo install git-cliff
+cargo install cargo-nextest --locked
+```
+
 ### 安装 VSCode 插件
 
 - crates: Rust 包管理
@@ -70,6 +81,15 @@ cargo install typos-cli
 ### 安装 git cliff
 
 git cliff 是一个生成 changelog 的工具。
+[介绍](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+fix: 修复 bug
+feat: 新增功能
+docs: 文档更新
+style: 代码格式化
+refactor: 代码重构
+perf: 性能优化
+test: 测试
+chore: 其他
 
 ```bash
 cargo install git-cliff
