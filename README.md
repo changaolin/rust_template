@@ -76,6 +76,7 @@ cargo deny check
 ### 安装 typos
 
 typos 是一个拼写检查工具。
+[介绍](https://github.com/crate-ci/typos)
 
 ```bash
 cargo install typos-cli
